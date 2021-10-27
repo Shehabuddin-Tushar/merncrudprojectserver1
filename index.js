@@ -88,6 +88,10 @@ app.get("/",(req,res)=>{
     res.send("this is example for testing")
 })
 
+app.get("/hello",(req,res)=>{
+    res.send("this is hello page")
+})
+
 app.listen(port,()=>{
     console.log("server running port is "+port)
 })
